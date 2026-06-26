@@ -3,7 +3,7 @@ const {
     createStudent,
     getAllStudents,
     getStudentById,
-    //   updateStudent,
+    updateStudent,
     deleteStudent,
 } = require("../controllers/studentController");
 const upload = require("../middleware/uploadMiddleware");
